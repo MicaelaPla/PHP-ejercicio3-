@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text], [type=password] {
+          width: 40%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 25%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+</head>
+
+<body>
+    
+    <form action="ej3.php" method="post">
+
+    Ingresá la duracion de la llamada (en minutos) <input type = "text" name="llamada"  id= "llamada">
+    <br>
+    Ingresá qué día fue <input type = "text" name="dia"  id= "dia">
+    <br>
+    Ingresá si fue turno mañana/tarde <input type = "text" name="turno"  id= "turno">
+    <br>
+    <input type="submit" value="Ingresar" name="Boton">
+
+   </form>
+
+</body>
+</html>
